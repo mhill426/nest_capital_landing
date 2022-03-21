@@ -1,0 +1,41 @@
+.home-intro {
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+}
+body, html{
+  height: 100%;
+  background-color: #35363C;
+  font-family: 'Archivo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  font-size: 14px;
+}
+h4 {
+  font-size: 2em;
+  font-weight: 100;
+  color: #F4EFE5; 
+  margin-top: 150px;
+}
+.center {
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#logo{
+  width: 40%;
+}
+
+/* -------------------- All Mobile Sizes -------------------- */
+@media only screen and (max-width: 767px) { 
+  #logo{ width: 300px; }
+  h1 { font-size: 2.2em; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.6em; }
+  h4 { font-size: 1.2em; }
+  h5 { font-size: 1.15em; }
+  h6 { font-size: .8em; color: #7F8289; }
+  p { font-size: 1.1em; line-height: 1.4em; }
+}
