@@ -828,6 +828,7 @@ footer p {
   .roadmap-photo{margin: 20px 0 10px -20px; text-align: center;}
   .roadmap-content h4{font-size: 1.3em;}
   h3.separator-quote-1 {padding-top: 20px;font-size: 1.3em;}
+  #separator-image-2 {height: 200px;}
   .profile img{max-height: 250px;}
 }
 
@@ -838,8 +839,12 @@ footer p {
   .main {top: 300px;}
   .title {margin-left: 15px;}
   .sub-heading {margin-left: 15px;}
-  .getintouch h2{margin-top: 20px;}
-  .git-btn{font-size: 1.2em;text-align: left; margin-top: 0px;}
+  .getintouch h2{font-size: 2em; margin-top: 20px;}
+  .git-btn{font-size: 1em;text-align: left; margin-top: 0px;}
+  .core-values {font-size: 2em; margin-left: 15px;}
+  #core-image {height: 500px;}
+  .values-body h2{font-size: 1.7em;}
+  .values-box{height: 280px;}
 }
 
 /* -------------------- Mobile Portrait -------------------- */
@@ -849,8 +854,12 @@ footer p {
   .main {top: 300px;}
   .title {margin-left: 15px;}
   .sub-heading {margin-left: 15px;}
-  .getintouch h2{margin-top: 20px;}
-  .git-btn{font-size: 1.2em; text-align: left; margin-top: 0px;}
+  .getintouch h2{font-size: 2em; margin-top: 20px;}
+  .git-btn{font-size: 1em; text-align: left; margin-top: 0px;}
+  .core-values {font-size: 2em; margin-left: 15px;}
+  #core-image {height: 500px;}
+  .values-body h2{font-size: 1.7em;}
+  .values-box{height: 280px;}
 }
 
 /* Retina Display Media Query */
