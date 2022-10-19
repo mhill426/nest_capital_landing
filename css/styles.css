@@ -193,7 +193,7 @@ button:active {
 .logo img{
   background-color: #ffffff;
   margin-top: -15px;
-  width: 250px;
+  width: 300px;
   -moz-box-shadow:    -.5px .5px 6px 0px rgba(0,0,0,.5)
   -webkit-box-shadow: -.5px .5px 6px 0px rgba(0,0,0,.5);
   box-shadow:         -.5px .5px 6px 0px rgba(0,0,0,.5);
@@ -332,7 +332,7 @@ h6.separator-quote-3 a{
 }
 .main {
   z-index: 10;
-  top: 600px;
+  top: 45%;
   width: 100%;
   position: absolute;
   text-align: left;
@@ -479,34 +479,47 @@ ul.nav-tabs{
 .tab-pane p{
   text-align: justify;
 }
-.nav-tabs.nav-justified>li>a{
+.nav-tabs.nav-justified>li>span{
+  color: #C5AD7E;
+  text-decoration: none;
+  text-align: center;
   border-bottom: none;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
 }
-.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
+.nav-tabs.nav-justified>.active>span, .nav-tabs.nav-justified>.active>span:focus, .nav-tabs.nav-justified>.active>span:hover{
   border: none;
 }
-.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
+.nav-tabs.nav-justified>.active>span, .nav-tabs.nav-justified>.active>span:focus, .nav-tabs.nav-justified>.active>span:hover{
   border-bottom: 3px solid #C5AD7E;
   font-weight: 600;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-  
+.nav-tabs>li.active>span, .nav-tabs>li.active>span:focus, .nav-tabs>li.active>span:hover{
+  color: #555;
 }
-.nav-tabs>li>a:hover{
+.nav-tabs>li>span:hover{
   color: #35363C;
   border-bottom: 3px solid #C5AD7E;
   border-top: none;
   border-right: none;
   border-left: none;
 }
-.nav>li>a:focus, .nav>li>a:hover{
+.nav>li>span:focus, .nav>li>span:hover{
   background: none;
+  cursor: pointer;
 }
 
 /* Services */
-#services {
-  margin: 20px 0px 80px 0px;
+#why {
+  margin: 20px 0px 60px 0px;
+}
+#goals {
+  margin: 20px 0px 60px 0px;
   text-align: center;
+}
+#affiliation {
+  margin: 20px 0px 60px 0px;
 }
 .service-content {
   text-align: center;
@@ -559,6 +572,9 @@ ul.nav-tabs{
 }
 
 /*Team*/
+#team {
+  margin: 20px 0px 60px 0px;
+}
 .profiles{
 
 }
@@ -569,6 +585,13 @@ ul.nav-tabs{
 .profile h4, .profile p{
   text-align: left;
   font-family: Archivo, sans-serif;
+}
+.profile a{
+  color: #000;
+  filter: grayscale(100%);
+}
+.profile a:hover,.profile a:focus{
+  filter: grayscale(0%);
 }
 .getintouch h2{
   color: #fff;
@@ -582,11 +605,48 @@ ul.nav-tabs{
   text-align: right;
   margin-top: 90px;
 }
+
+/*Bios*/
+.bio-box{
+  margin-top: 150px;
+}
+.bio p{
+  text-align: left;
+  font-family: Archivo, sans-serif;
+}
+.bio-image img{
+  max-height: 300px;
+}
+.bio-image h4, .bio-image p{
+  text-align: left;
+  font-family: Archivo, sans-serif;
+}
+.bio-social i{
+  font-size: 1.3em;
+  padding: 4px 4px;
+}
+.bio-body{
+  margin-top: 15px;
+}
+
+
+/*Locations*/
+#locations {
+  margin: 20px 0px 60px 0px;
+}
 .local-card{
-  background-color: #FFE6BC;
+  background-color: #FFF;
   -moz-box-shadow:    -.5px .5px 6px 0px rgba(0,0,0,.5)
   -webkit-box-shadow: -.5px .5px 6px 0px rgba(0,0,0,.5);
   box-shadow:         -.5px .5px 6px 0px rgba(0,0,0,.5);
+}
+.local-card h5{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #C5AD7E;
+  text-align: left;
+  line-height: 2;
 }
 .map img{
   margin-top: 40px;
@@ -805,7 +865,7 @@ footer p {
 
 /* -------------------- Tablet Portrait Size -------------------- */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-
+  .main {top: 300px;}
 }
 
 
