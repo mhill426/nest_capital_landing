@@ -575,7 +575,7 @@ ul.nav-tabs{
 #team {
   margin: 20px 0px 60px 0px;
 }
-.profiles{
+.profile{
 
 }
 .profile img{
@@ -634,19 +634,37 @@ ul.nav-tabs{
 #locations {
   margin: 20px 0px 60px 0px;
 }
+.office {
+  text-align: center;
+}
+.office p{
+  text-align: center;
+}
+.office i{
+  padding-right: 10px;
+  padding-bottom: 12px;
+}
 .local-card{
   background-color: #FFF;
-  -moz-box-shadow:    -.5px .5px 6px 0px rgba(0,0,0,.5)
-  -webkit-box-shadow: -.5px .5px 6px 0px rgba(0,0,0,.5);
-  box-shadow:         -.5px .5px 6px 0px rgba(0,0,0,.5);
+  border: 1px solid #C5AD7E;
+  margin: 5px 15px;
+  min-height: 300px;
 }
-.local-card h5{
+.local-card p{
+  font-size: 1.2em;
+  line-height: 1.2;
+  text-align: left;
+}
+.local-card h6{
   font-family: 'Archivo', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #C5AD7E;
   text-align: left;
-  line-height: 2;
+}
+.local-card i{
+  padding-right: 10px;
+  padding-bottom: 12px;
 }
 .map img{
   margin-top: 40px;
@@ -866,6 +884,7 @@ footer p {
 /* -------------------- Tablet Portrait Size -------------------- */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .main {top: 300px;}
+  .profile {margin: 10px;}
 }
 
 
