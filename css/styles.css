@@ -21,9 +21,14 @@
 }
 
 /* Global Styles */
-html,
+html{
+  height: 100%;
+}
 body {
   width: 100%;
+  min-height:100%; 
+  position:relative; 
+  padding-bottom: 150px;
   margin: 0 0;
   font-family: 'Archivo', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -332,7 +337,7 @@ h6.separator-quote-3 a{
 }
 .main {
   z-index: 10;
-  top: 45%;
+  top: 8%;
   width: 100%;
   position: absolute;
   text-align: left;
@@ -627,10 +632,13 @@ ul.nav-tabs{
 }
 .bio-body{
   margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 
 /*Locations*/
+.locals-box {
+}
 #locations {
   margin: 20px 0px 60px 0px;
 }
@@ -734,12 +742,15 @@ ul.nav-tabs{
 footer {
   z-index: 10000;
   position: absolute;
+  left: 0 ; bottom: 0; 
+  height: 150px;
   background-color: #35363C;
   float: none;
   width: 100%;
   font-family: "Archivo", sans-serif;
   text-align: center;
   color: #fff;
+  margin-top: 30px;
   margin-bottom: 0px;
   padding: 20px 0px;
 }
@@ -830,6 +841,8 @@ footer p {
 
 /* -------------------- Smaller than 960px -------------------- */
 @media only screen and (max-width: 991px) {
+  body {padding-bottom: 250px;}
+  footer {height: 250px;}
   #background-image {height: 600px; background: #0082ed top center no-repeat;}
   .color-overlay{height: 600px;}
   .overlay{height: 600px;}
@@ -908,7 +921,8 @@ footer p {
   .roadmap-content h4{font-size: 1.3em;}
   h3.separator-quote-1 {padding-top: 20px;font-size: 1.3em;}
   #separator-image-2 {height: 200px;}
-  .profile img{max-height: 250px;}
+  .profile {min-height: 400px;}
+  .profile img{max-height: 200px;}
 }
 
 /* -------------------- Mobile Landscape -------------------- */
